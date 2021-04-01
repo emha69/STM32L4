@@ -1,4 +1,4 @@
-# STM32L4
+# STM32L4 EXAMPLES
 
 STMCubeIDE Example projects for the STM32L4, tested with STM NUCLEO-L476G.
 
