@@ -103,7 +103,7 @@ int main(void)
 
 	RetargetInit(&huart2);  // Re-direct console I/O to USART2 and J-Link VCOM
 
-	printf("I2C Scanner stared...\r\n");
+	printf("I2C Scanner started...\r\n");
 
 	uint8_t devFound = 0;
 
