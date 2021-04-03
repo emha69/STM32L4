@@ -113,7 +113,7 @@ int main(void)
 
 		if (HAL_I2C_Master_Transmit(&hi2c1, addr << 1, dummy, 0, 100) == HAL_OK) {
 
-			printf("I2C Device[%d] found at 0x%02X\r\n", ++devFound, addr);
+			printf("I2C Device[%d] found at 0x%02X\r\n", ++devFound, addr << 1);
 		}
     }
 
