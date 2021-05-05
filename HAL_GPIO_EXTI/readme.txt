@@ -2,7 +2,7 @@ This is a HAL based GPIO external interrupt example, based on STM32CubeIDE versi
 and for NUCLEO STM32L476G board. Each time the BLUE BUTTON on the board is pushed, the
 GREEN LED toggle speed changes from faster to slower and vice versa.
 
-Important steps
+Important steps (see USER sections in the code)
 
 1. Create project configuration with STM32CubeMX
 
