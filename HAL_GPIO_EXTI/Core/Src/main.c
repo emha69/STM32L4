@@ -20,10 +20,11 @@
 /* Includes ------------------------------------------------------------------*/
 
 #include "main.h"
-#include "stm32l4xx_hal_exti.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+#include "stm32l4xx_hal_exti.h"
 
 /* USER CODE END Includes */
 
@@ -45,11 +46,11 @@
 
 UART_HandleTypeDef huart2;
 
+/* USER CODE BEGIN PV */
+
 EXTI_HandleTypeDef hpb_exti_13 = {.Line = EXTI_LINE_13}; // Port = GPIOC, Pin = GPIO13
 
 volatile int32_t ButtonPushed = 0;
-
-/* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
 
